@@ -19,7 +19,7 @@ The Ant Colony Optimization (ACO) algorithm is inspired by the foraging behavior
 ### Core Classes and Components
 
 1. **Ant**: Represents an individual ant with attributes such as position, path history, and length of the path traveled.
-2. **Pheromore**: Manages pheromone intensity on the grid.
+2. **Pheromone**: Manages pheromone intensity on the grid.
 3. **Building**: Defines the grid structure, including home and food coordinates.
 4. **BestAnt**: Stores the ant with the best (shortest) path discovered.
 5. **Algorithm Flow**:
@@ -40,4 +40,6 @@ The Ant Colony Optimization (ACO) algorithm is inspired by the foraging behavior
 ![name-of-you-image](https://github.com/AlanYangYi/AntColonyAlgorithm/blob/main/result.png?raw=true)
 
 
-Conclusion: by using the pheromone, with the increase of iteration times, ants will choose an approximately optimal route to walk in the end.
+### Conclusion
+
+Using the pheromone, with the increase of iteration times, ants will ultimately choose an approximately optimal route to walk.
